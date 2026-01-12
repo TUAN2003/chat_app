@@ -5,7 +5,7 @@ class UserModel {
   final SexType sex;
   final DateTime birthDay;
 
-  UserModel({
+  const UserModel({
     required this.id,
     required this.name,
     required this.userName,

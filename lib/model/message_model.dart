@@ -6,7 +6,7 @@ class MessageModel {
   final MessageType type;
   final DateTime createdAt;
 
-  MessageModel({
+  const MessageModel({
     required this.id,
     required this.content,
     required this.idSender,

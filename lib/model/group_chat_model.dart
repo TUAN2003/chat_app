@@ -1,15 +1,18 @@
-class ChatRoom {
+class GroupChatModel {
   final String id;
   final String name;
   final String avatarUrl;
   final DateTime createdAt;
-  final bool isPrivate;
 
-  ChatRoom({
+  const GroupChatModel({
     required this.id,
     required this.name,
     required this.avatarUrl,
     required this.createdAt,
-    required this.isPrivate,
   });
+
+  static const fnId = "id";
+  static const fnName = "name";
+  static const fnAvatarUrl = "avatarUrl";
+  static const fnCreatedAt = "createdAt";
 }
