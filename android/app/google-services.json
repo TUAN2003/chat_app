@@ -12,7 +12,20 @@
           "package_name": "com.example.chat_app"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "2559087700-4473ch9vtruvdkv9i8g4emaiat1o5ra4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chat_app",
+            "certificate_hash": "f10e7064a054a0332aca634a150b0384a683302e"
+          }
+        },
+        {
+          "client_id": "2559087700-d28552ulc1bb7sso8ngjvda203rhqnf1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyAG-3K9r87psSkblokaL6l-jpwbNC4o-J4"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2559087700-d28552ulc1bb7sso8ngjvda203rhqnf1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "2559087700-7vbv9vs7i4mjrh9njpqv2d37gmpqr5dq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chatApp"
+              }
+            }
+          ]
         }
       }
     }
